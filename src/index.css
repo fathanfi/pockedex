@@ -1,5 +1,72 @@
+/**
+* Main CSS
+*/
 body {
+  background: #fafafa;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.main_container{
+  max-width: 37.5rem;
+  flex: 1 1 0%;
+  margin: 10px auto;
+  margin-top: 7rem;
+}
+
+.container{
+  max-width: 37.5rem;
+  padding: 0;
+}
+
+.footer_container{
+  text-align: center;
+}
+
+.loading_title{
+  text-align: center;
+  margin-top: 0;
+}
+
+/**
+* Header Style
+*/
+.tail-wrapper {
+  position: relative;
+}
+.navbar-brand {
+  color: black;
+}
+.tail-wrapper .tail-text {
+  position: relative;
+  z-index: 2;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.tail-wrapper .yellow-dash-start {
+  height: 13px;
+  width: 60px;
+  background: #FECF28;
+  position: absolute;
+  left: 3px;
+  bottom: 4px;
+  z-index: 1;
+}
+.tail-wrapper .yellow-dash-end {
+  height: 13px;
+  width: 25px;
+  position: absolute;
+  right: -25px;
+  bottom: 4px;
+  z-index: 1;
+}
+.jumbotron h1, .jumbotron .h1 {
+  text-align: center;
+}
+.jumbotron p, .jumbotron .p {
+  padding: 2px 10px;
+  font-size: 16px;
+  text-align: center;
 }
